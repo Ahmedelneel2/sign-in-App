@@ -1,0 +1,45 @@
+section{
+    background-color: #24353f;
+}
+.cartona  {
+    background-color: #24353F;
+    border: 1px solid transparent ;
+    box-shadow: 1px 1px 10px black ;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+.form-control{
+    background-color: transparent;
+    color: white  ;
+
+}
+::placeholder{
+    color: white;
+}
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: red;
+}
+.fixed-top{
+    border-bottom: 0px solid black;
+    box-shadow:0px 0px 10px black;
+}
+.welcome{
+    font-size:55px;
+}
+#signInLink{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+#signUpLink{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue; 
+}
